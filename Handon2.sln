@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Handon2", "Handon2\Handon2.csproj", "{BB20FF2F-1DA1-4E64-9642-88677B5BBA3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB20FF2F-1DA1-4E64-9642-88677B5BBA3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB20FF2F-1DA1-4E64-9642-88677B5BBA3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB20FF2F-1DA1-4E64-9642-88677B5BBA3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB20FF2F-1DA1-4E64-9642-88677B5BBA3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9853517E-44F0-4658-A5BA-877B78197F72}
+	EndGlobalSection
+EndGlobal
