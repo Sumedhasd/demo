@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="webpage.master.cs" Inherits="EventManagement.webpage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div>
+             <div>
+                <h1> Event Management </h1>
+                   <hr />
+                 <table>
+                     <tr>
+                         <td>
+                             <asp:HyperLink ID="hypdashboard" runat="server" NavigateUrl="~/Dash Board.aspx">Dash Board  </asp:HyperLink>
+                         </td>
+                         <td>
+                             <asp:HyperLink ID="hypbookevent" runat="server" NavigateUrl="~/Foodorderpage.aspx">Book Event  </asp:HyperLink>
+                         </td>
+                         <td>
+                             <asp:HyperLink ID="hypbookingstatus" runat="server" NavigateUrl="~/Booking details.aspx">Booking Status  </asp:HyperLink>
+                         </td>
+                         <td>
+                             <asp:HyperLink ID="hypprofile" runat="server" NavigateUrl="~/Profile.aspx">Profile</asp:HyperLink>
+                         </td>
+                         <td>
+                             <asp:HyperLink ID="hypchangepassword" runat="server" NavigateUrl="~/Change Password.aspx">Change Password  </asp:HyperLink>
+                         </td>
+                     </tr>
+                 </table>
+              </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        </div>
+    </form>
+</body>
+</html>
